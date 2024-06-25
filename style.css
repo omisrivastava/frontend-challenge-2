@@ -1,0 +1,71 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  background-color: lightsteelblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:120vh;
+
+  
+}
+.card{
+  background-color: black;
+width:30%;
+height:105vh;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+.image{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.image img{
+border-radius:70px;
+margin-top: 50px;
+
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para{
+  color:white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.paras{
+  font-size: 17px;
+  margin-top: 30px;
+  text-align: center;
+  color:chartreuse;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:20px 20px;
+  padding: 10px;
+}
+.btn1{
+  background-color: black;
+  color:aliceblue;
+  padding: 20px;
+  width:90%;
+  border-radius: 10px;
+  margin:10px;
+}
